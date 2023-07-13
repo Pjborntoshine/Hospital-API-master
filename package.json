@@ -1,0 +1,38 @@
+{
+  "name": "hospital-api",
+  "version": "1.0.0",
+  "description": "server side for a hospital",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "SET NODE_ENV=dev && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pjborntoshine/Hospital-API.git"
+  },
+  "keywords": [
+    "Hospital",
+    "API",
+    "COVID-19"
+  ],
+  "author": "Bhavuk Khanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pjborntoshine/Hospital-API/issues"
+  },
+  "homepage": "https://github.com/Pjborntoshine/Hospital-API#readme",
+  "dependencies": {
+    "chai-http": "^4.3.0",
+    "config": "^3.3.1",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.23",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
